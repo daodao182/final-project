@@ -69,3 +69,31 @@ data.rdf
   </rdf:Description>
 </rdf:RDF>
 
+query1
+prefix cd: <http://www.recshop.fake/cd#>
+SELECT ?code
+WHERE {<https://collections.okeeffemuseum.org/object/84/>  cd:code  ?code}
+  
+query2
+prefix cd: <http://www.recshop.fake/cd#>
+SELECT ?x ?name
+WHERE {?x  cd:name  ?name}
+  
+query3
+prefix cd: <http://www.recshop.fake/cd#>
+SELECT ?name
+WHERE  { ?x cd:name  ?name
+                FILTER regex( ?name,"Cliff") }
+  
+query4
+prefix cd: <http://www.recshop.fake/cd#>
+SELECT ?latitude ?longitude
+WHERE {{ <https://collections.okeeffemuseum.org/object/84/> cd:latitude  ?latitude} UNION {<https://collections.okeeffemuseum.org/object/84/> cd:longitude ?longitude}}
+  
+query5
+prefix cd: <http://www.recshop.fake/cd#>
+SELECT ?name
+WHERE { ?x cd:name  ?name .
+              ?x  cd:latitude "36.335363".
+             ?x cd:longitude "-106.495020999999".} 
+  
