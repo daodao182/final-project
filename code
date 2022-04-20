@@ -1,0 +1,71 @@
+data.rdf
+<?xml version="1.0"?>
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:cd="http://www.recshop.fake/cd#">
+  <rdf:Description 
+  rdf:about="https://collections.okeeffemuseum.org/object/84/">
+    <cd:code>CR0998</cd:code>
+    <cd:name>Untitled (Red and Yellow Cliffs)</cd:name>
+    <cd:latitude>36.335363</cd:latitude>
+    <cd:longitude>-106.495020999999</cd:longitude>
+    <cd:population>1058</cd:population>  
+  </rdf:Description>
+  <rdf:Description rdf:about="https://collections.okeeffemuseum.org/archive/component/aspace_ref130_fwc/"> 
+   <cd:code>CR1226</cd:code>
+   <cd:name>Cliffs Beyond Abiquiu - Dry Waterfall</cd:name>
+   <cd:latitude>36.3347789999999</cd:latitude>
+   <cd:longitude>-106.494512999999</cd:longitude>
+   <cd:population>1058</cd:population> 
+  </rdf:Description>
+  <rdf:Description rdf:about="https://collections.okeeffemuseum.org/object/1020/"> 
+   <cd:code>CR1023</cd:code>
+   <cd:name>My Front Yard, Summer</cd:name>
+    <cd:latitude>36.3343509999999</cd:latitude>
+    <cd:longitude>-106.49454</cd:longitude>
+    <cd:population>1058</cd:population>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://collections.okeeffemuseum.org/archive/component/aspace_ref133_a54/"> 
+   <cd:code>CR0913</cd:code>
+   <cd:name>The House I Live In</cd:name>
+   <cd:latitude>36.334788</cd:latitude>
+   <cd:longitude>-106.494409</cd:longitude>
+   <cd:population>1058</cd:population>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://collections.okeeffemuseum.org"> 
+   <cd:code>CR0986</cd:code>
+   <cd:name>The Patio - No. I</cd:name>
+   <cd:latitude>36.334316</cd:latitude>
+   <cd:longitude>-106.494341</cd:longitude>
+   <cd:population>1058</cd:population>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://collections.okeeffemuseum.org/archive/component/aspace_ref149_puy/"> 
+   <cd:code>CR0872</cd:code>
+   <cd:name>Hill, New Mexico</cd:name>
+   <cd:latitude>36.332216</cd:latitude>
+   <cd:longitude>-106.490707</cd:longitude>
+   <cd:population>1058</cd:population>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://collections.okeeffemuseum.org"> 
+   <cd:code>CR0935</cd:code>
+   <cd:name>Cedar Tree with Lavender Hills</cd:name>
+   <cd:latitude>36.328135</cd:latitude>
+   <cd:longitude>-106.479500999999</cd:longitude>
+   <cd:population>1058</cd:population>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://collections.okeeffemuseum.org/object/79/"> 
+   <cd:code>CR0837</cd:code>
+   <cd:name>Purple Hills Ghost Ranch - 2 / Purple Hills No II</cd:name>
+   <cd:latitude>36.328186</cd:latitude>
+   <cd:longitude>-106.479517999999</cd:longitude>
+   <cd:population>1058</cd:population>
+   </rdf:Description>
+  <rdf:Description rdf:about="https://collections.okeeffemuseum.org/object/6552/"> 
+   <cd:code>CR0933</cd:code>
+   <cd:name>Chama River, Ghost Ranch</cd:name>
+   <cd:latitude>36.2356399999999</cd:latitude>
+   <cd:longitude>-106.393443</cd:longitude>
+   <cd:population>1230</cd:population>
+  </rdf:Description>
+</rdf:RDF>
+
